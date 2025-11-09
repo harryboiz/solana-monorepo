@@ -6,12 +6,14 @@ This repository contains a simple **Solana data API** built with **NestJS** (bac
 
 ## **Project Structure**
 
+```
 solana-monorepo/
 ├─ packages/
 │ ├─ backend/ # NestJS API
 │ └─ frontend/ # NextJS app
 ├─ package.json # Root monorepo config
 └─ pnpm-workspace.yaml
+```
 
 
 ---
@@ -46,7 +48,7 @@ pnpm api
 ```
 
 - Default runs on http://localhost:3001
-- API endpoint: GET /solana/block-tx-count?block=<BLOCK_NUMBER>
+- API endpoint: GET /solana/block/tx-count?block=<BLOCK_NUMBER>
 - Returns JSON:
 ```json
 {
