@@ -1,0 +1,19 @@
+{
+  "name": "solana-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "pnpm --filter backend start:dev",
+    "web": "pnpm --filter frontend dev",
+    "test": "pnpm --filter backend test"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">= 22 < 23"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0"
+}
